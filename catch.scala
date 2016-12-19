@@ -5,7 +5,7 @@ import java.io.IOException
 var f = new FileReader("a.scala")
 try
 {
-    println(f.read())
+  println(f.read())
 }
 catch
 {
@@ -14,6 +14,6 @@ catch
 }
 finally
 {
-    println("close file")
+  println("close file")
   f.close()
 }
