@@ -1,4 +1,4 @@
-object FindLongLine 
+object FindLongLine
 {
   def main(args: Array[String]){
     val width = args(0).toInt
