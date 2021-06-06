@@ -1,0 +1,5 @@
+name := "Hello Scala"
+version := "1.0"
+scalaVersion := "2.10.5"
+assemblyJarName in assembly := "hello_scala.jar"
+libraryDependencies += "org.apache.spark" %% "spark-core" % "1.6.2"
